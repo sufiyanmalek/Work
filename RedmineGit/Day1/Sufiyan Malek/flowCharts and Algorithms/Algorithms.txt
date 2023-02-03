@@ -1,0 +1,23 @@
+/// Algorithm to add two numbers
+
+step 1: input two numbers a and b,
+step 2: do addition of that two numbers,
+step 3 : store that addition in new variable c,
+step 4 : return or print new variable c.
+
+
+//// algorithm to print area of circle
+
+
+step 1: get input of radius of circle and store in r,
+step 2: declare a variable area,
+step 3: area = 3.14 * r * r,
+step 4: Return the value of area.
+
+
+// sum of all the even numbers
+
+step 1: get in n and i=0 and initiate variable sum(n is number that we want to do loop),
+step 2: Run while loop on condition i <= n,
+step 3: and check if i%2==0 then do addition of that i with sum,
+step 4: return the value of sum after the while loop.
