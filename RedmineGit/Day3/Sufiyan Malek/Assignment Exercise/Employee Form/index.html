@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center><h1>Employee details:</h1></center>
+
+    <form action="#">
+      <div>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name"  />
+      </div><br />
+
+      <div>
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" />
+      </div><br />
+
+      <div id="gender">
+        <p>Please select your Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>  
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+      </div><br />
+
+      <div>
+        <label for="design">Designation: </label>
+        <input type="text" name="design" id="design"/>
+      </div><br />
+
+      <div>
+        <label for="salary">Salary: </label>
+        <input type="number" name="salary" id="salary"/>
+      </div><br />
+
+      <div>
+        <label>Location: </label>
+        <select id="Location">
+          <option value="surat">Surat</option>
+          <option value="rajkot">Rajkot</option>
+          <option value="bharuch">Bharuch</option>
+          <option value="jamnagar">Jamnagar</option>
+          <option value="ahmedabad">Ahmedabad</option>
+          <option value="other">Other</option>
+        </select>
+      </div><br />
+
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+      </div><br />
+
+      <div>
+        <label for="doj">Date of joining: </label>
+        <input type="date" name="doj" id="doj"/>
+      </div><br />
+
+      <div>
+        <label for="contactNumber">Contact Number: </label>
+        <input type="text" name="contactNumber" id="contactNumber" pattern="[0-9]{10}" min="10" max="10" />
+      </div><br />
+
+      <div>
+        <button type="submit" onclick="onSubmit(event)">Submit</button>
+      </div><br />
+      <div>
+        <button type="submit" onclick="onRetrieve(event)">Retrieve</button>
+      </div>
+    </form>
+    <div id="data">No Data</div>
+    <script src="index.js"></script>
+  </body>
+</html>
