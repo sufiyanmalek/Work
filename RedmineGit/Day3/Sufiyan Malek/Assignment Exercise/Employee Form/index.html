@@ -12,17 +12,17 @@
     <form action="#">
       <div>
         <label for="name">Name: </label>
-        <input type="text" name="name" id="name"  />
+        <input type="text" name="name" id="name" required />
       </div><br />
 
       <div>
         <label for="age">Age: </label>
-        <input type="number" name="age" id="age" />
+        <input type="number" name="age" id="age" required/>
       </div><br />
 
       <div id="gender">
         <p>Please select your Gender:</p>
-        <input type="radio" id="male" name="gender" value="male">
+        <input type="radio" id="male" name="gender" value="male" required>
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>  
@@ -32,17 +32,17 @@
 
       <div>
         <label for="design">Designation: </label>
-        <input type="text" name="design" id="design"/>
+        <input type="text" name="design" id="design" required/>
       </div><br />
 
       <div>
         <label for="salary">Salary: </label>
-        <input type="number" name="salary" id="salary"/>
+        <input type="number" name="salary" id="salary" required/>
       </div><br />
 
       <div>
         <label>Location: </label>
-        <select id="Location">
+        <select id="Location" required>
           <option value="surat">Surat</option>
           <option value="rajkot">Rajkot</option>
           <option value="bharuch">Bharuch</option>
@@ -54,17 +54,17 @@
 
       <div>
         <label for="email">Email: </label>
-        <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+        <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/>
       </div><br />
 
       <div>
         <label for="doj">Date of joining: </label>
-        <input type="date" name="doj" id="doj"/>
+        <input type="date" name="doj" id="doj" required/>
       </div><br />
 
       <div>
         <label for="contactNumber">Contact Number: </label>
-        <input type="text" name="contactNumber" id="contactNumber" pattern="[0-9]{10}" min="10" max="10" />
+        <input type="text" name="contactNumber" id="contactNumber" pattern="[0-9]{10}" min="10" max="10" required/>
       </div><br />
 
       <div>
