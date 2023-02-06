@@ -23,7 +23,7 @@ function onRetrieve(event){
     event.preventDefault();
     var data = document.getElementById('data');
     var name = document.getElementById('name').value;
-    var entry = sessionStorage.getItem(name);
+    var entry = localStorage.getItem(name);
     console.log(JSON.parse(entry));
     data.innerHTML = '<div>' + entry +'</div>'
     
