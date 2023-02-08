@@ -26,6 +26,4 @@ function onRetrieve(event){
     var entry = localStorage.getItem(name);
     console.log(JSON.parse(entry));
     data.innerHTML = '<div>' + entry +'</div>'
-    
-
 }
